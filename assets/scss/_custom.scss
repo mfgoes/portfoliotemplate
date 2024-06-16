@@ -1,17 +1,16 @@
 // _custom.scss
 
 // Override Bootstrap's primary color
-$primary: rgb(96, 74, 190); // This sets the primary color to green
-
+$primary: #db2d59; // This sets the primary color to green
 /* Brand Colors */
-$brand-primary: rgb(96, 74, 190);
-$brand-primary-lighter: rgb(110, 101, 230);
+$brand-primary: $primary;
+$brand-primary-lighter: #f15881;
 
 .aspect-ratio-16x9 {
   position: relative;
   width: 100%;
   padding-top: 56.25%; /* 16:9 aspect ratio (height/width * 100%) */
-}
+}  
 
 .aspect-ratio-16x9 img {
   position: absolute;
