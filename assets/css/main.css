@@ -17,11 +17,12 @@ body, a {
 }
 
 .lead-custom {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
 }
 @media screen and (max-width: 576px) {
   .lead-custom {
     font-size: 0; /* Hide the original text visually */
+    line-height: 1.5rem;
   }
 }
 .lead-custom::after {
